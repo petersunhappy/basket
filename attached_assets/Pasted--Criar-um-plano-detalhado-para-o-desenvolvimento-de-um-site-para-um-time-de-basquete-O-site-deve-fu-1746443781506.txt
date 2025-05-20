@@ -1,0 +1,61 @@
+ Criar um plano detalhado para o desenvolvimento de um site para um time de basquete. O site deve funcionar primariamente como um portal interno para comunicação e acompanhamento de atletas e comissão técnica, mas também incluir uma seção pública com notícias e informações gerais.
+
+Requisitos de Design e Estrutura:
+
+
+
+Layout Geral:Cabeçalho (Topo): Incluir Logo do Time e Atalhos Rápidos (Página Inicial, Notícias, Calendário, Login/Área do Atleta).
+
+Coluna Lateral (Sidebar): Visível apenas para usuários logados. Deve conter o Menu Principal (Meu Painel/Dashboard, Treino do Dia, Registrar Exercícios, Meu Histórico, Calendário Completo, Notícias Internas, Meu Perfil).
+
+Área de Conteúdo Principal: Exibir o conteúdo correspondente à seção selecionada no cabeçalho ou na coluna lateral.
+
+Funcionalidades Essenciais:
+
+
+
+Autenticação e Permissões:Dois níveis de acesso principais: Atleta e Treinador/Admin.
+
+Atleta: Acessa seus treinos, registra exercícios, visualiza calendário e notícias (públicas e internas).
+
+Treinador/Admin: Gerencia atletas, cria/atribui planos de treino, gerencia calendário, publica notícias (públicas e internas), visualiza progresso dos atletas.
+
+Gestão de Planos de Treino:Interface para Treinador/Admin criar planos detalhados (exercícios, séries, repetições, intensidade, notas).
+
+Possibilidade de atribuir planos a datas específicas e/ou grupos de atletas.
+
+Atleta visualiza claramente o plano prescrito para o dia/período atual ao logar (na seção "Treino do Dia").
+
+Registro de Exercícios Realizados:Formulário intuitivo para Atleta inserir detalhes do treino feito (exercício, séries, reps, carga/duração, data/hora automática, notas opcionais, sensação de esforço opcional).
+
+Dados devem ser armazenados no banco de dados, associados ao Atleta e à data.
+
+Funcionalidade para Atleta visualizar seu histórico de treinos registrados ("Meu Histórico").
+
+Treinador/Admin deve ter acesso à visualização do progresso dos atletas (geral e individual).
+
+Calendário Esportivo:Interface para Treinador/Admin adicionar e gerenciar eventos (jogos, treinos, viagens, etc.) com data, hora, local, descrição.
+
+Exibição clara do calendário (visualização mensal/semanal/lista) para todos os membros logados.
+
+Opcional: Uso de cores para diferentes tipos de eventos.
+
+Sistema de Notícias:Interface para Treinador/Admin criar, editar e publicar posts (título, conteúdo, imagens/vídeos).
+
+Suporte para categorias: Notícias Públicas (visíveis para todos) e Notícias Internas (visíveis apenas para membros logados).
+
+Exibição das notícias em uma seção dedicada e/ou destaques na página inicial/dashboard.
+
+Considerações Técnicas (a serem avaliadas no plano):
+
+
+
+Avaliar e sugerir plataformas/tecnologias de implementação (Ex: WordPress com plugins específicos, Plataforma No-Code/Low-Code, Desenvolvimento Sob Medida com frameworks modernos).
+
+O plano deve considerar a necessidade de um banco de dados, responsividade (design adaptável para mobile e desktop) e segurança.
+
+Entregável Esperado:
+
+
+
+Um documento de planejamento detalhado que sirva como guia claro para a implementação do site, cobrindo a estrutura, design, funcionalidades, requisitos técnicos e próximos passos sugeridos para o desenvolvimento e publicação. Pode incluir wireframes ou esboços conceituais das telas principais (como "Registrar Exercício").
